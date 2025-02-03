@@ -1,5 +1,5 @@
 import Comments from "./components/Comments";
-import AddCommentForm from "./assets/AddCommentForm";
+import AddCommentForm from "./components/AddCommentForm";
 
 function App() {
   return (
