@@ -1,4 +1,4 @@
-import { CommentWithReplies } from "../types";
+import { CommentWithReplies } from "../types/index";
 
 const mockData: CommentWithReplies[] = [
   {
