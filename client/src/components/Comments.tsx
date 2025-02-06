@@ -1,4 +1,3 @@
-import React from "react";
 import { CommentWithReplies } from "../types";
 import CommentThread from "./CommentThread";
 
