@@ -14,7 +14,10 @@ const getRepliesSchema = z.array(replySchema);
 export const getComments = async (
   abortController: AbortController
 ): Promise<CommentWithReplies[]> => {
-  const { data } = await axios.get("/api/comments", abortController);
+  const { data } = await axios.get(
+    "http://localhost:3001/api/comments",
+    abortController
+  );
   return getCommentWithRepliesSchema.parse(data);
 };
 
